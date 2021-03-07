@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
     const md = markdownIt(markdownItOptions)
     .use(require('markdown-it-footnote'))
     .use(require('markdown-it-attrs'))
+    .use(require('markdown-it-bracketed-spans'))
     .use(function(md) {
         // Recognize Mediawiki links ([[text]])
         md.linkify.add("[[", {
@@ -31,6 +32,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("notes", function (collection) {
         return collection.getFilteredByGlob(["notes/**/*.md", "index.md"]);
     });
+
+    eleventyConfig.addPassthroughCopy({"node_modules/rough-notation/lib/rough-notation.iife.js": "js/rough-notation.iife.js"});
+    eleventyConfig.addPassthroughCopy({"rough-notation-config.js": "js/rough-notation.config.js"});
     
     eleventyConfig.addPassthroughCopy('assets');
 
