@@ -21,3 +21,14 @@ You can use any class / id name, but remember you need to add those to [rough-no
 Inside [rough-notation-config.js](rough-notation-config.js) there is example configuration for `class` as well as `id` used on [demo website](https://leo-11ty-performance-garden.netlify.app/notes/). 
 
 You can check [source of demo here](notes/index.md). Please mind that if you want to add more animated-on-view annotations you have to add more IntersectionObservers. Also mind that IntersectionObserver should be used with **unique** identificators (ie. `id`'s ), using it with `class` may end up in unexpected result when there's more than one class to annotate.
+
+For more options please adhere to:
+
+[Rough Notation](https://github.com/rough-stuff/rough-notation)
+
+[markdown-it-bracketed-spans
+](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+
+[Eleventy-Garden](https://github.com/binyamin/eleventy-garden)
+
+[eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
