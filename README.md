@@ -4,6 +4,9 @@ This is my try to apply performance features from [eleventy-high-performance-blo
 
 # [Demo](https://leo-11ty-performance-garden.netlify.app/notes/)
 
+![Screenshot](screenshot.png)
+
+
 ## Configuration:
 
 To annotate / highlight text you have to add css `class` or `id` to text you want to annotate in order to let Rough Notation find it.
