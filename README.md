@@ -4,6 +4,13 @@ This is my try to apply performance features from [eleventy-high-performance-blo
 
 # [Demo](https://leo-11ty-performance-garden.netlify.app/notes/)
 
+
+- You can have animation played once - while opening the website
+- or you can have animation played once while reader scrolls to annotated fragment
+-  or you can have animation played every time when annotated fragment is visible on screen. 
+  
+Those last two effects are achieved with [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+
 ![Screenshot](screenshot.png)
 
 
