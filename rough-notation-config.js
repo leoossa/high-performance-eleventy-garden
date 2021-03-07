@@ -21,6 +21,9 @@
     // Without this annotations may be placed in a wrong position
     // https://github.com/rough-stuff/rough-notation/issues/18#issue-627803847
     document.fonts.ready.then(function () {
+      // Those are animated only once after website is loaded. 
+      // They are probably animated outside of view, so they may seem 'not animated'. 
+      // If you want more interactive - take a look at code below with #highlight
       a1.show();
       a2.show();
       a3.show();
@@ -31,11 +34,11 @@
         if (entry.isIntersecting){
           a4.show()
         }
-        // remove it if you don't want it to re-animate when back in view
+        // Remove it if you don't want it to re-animate when back in view
         if (!entry.isIntersecting){
           a4.hide()
         }
-        // end of remove
+        // End of remove
       });
     };
     let observer = new IntersectionObserver(callback, {threshold: 0.5});
