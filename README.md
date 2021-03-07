@@ -42,3 +42,5 @@ For more options please adhere to:
 [Eleventy-Garden](https://github.com/binyamin/eleventy-garden)
 
 [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
+
+WORK IN PROGRESS - PERFORMANE OPTIMIZATIONS STILL HAVE TO BE ADDED
