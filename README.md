@@ -43,10 +43,10 @@ For more options please adhere to:
 
 [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog)
 
-WORK IN PROGRESS - PERFORMANE OPTIMIZATIONS STILL HAVE TO BE ADDED
+WORK IN PROGRESS - PERFORMANCE OPTIMIZATIONS STILL HAVE TO BE ADDED
 
 ## Roadmap:
 
 - [x] add Rough Notation 
 - [ ] add performance optimizations 
-- [ ] add graph links
+- [ ] add ability to generate  [graph links](https://github.com/tchayen/markdown-links)
