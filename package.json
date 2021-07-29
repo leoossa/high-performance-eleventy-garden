@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-garden",
+  "name": "high-performance-eleventy-garden",
   "version": "1.0.0",
-  "description": "A starter site for building a mind garden in eleventy.",
+  "description": "Mind garden / second-brain / zettelkasten based on 11ty (eleventy) with some additional feautres",
   "scripts": {
     "start": "eleventy --serve",
     "compile": "eleventy"
