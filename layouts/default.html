@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
     <header class="page-header">
         <a href="/" class="page-header__logo" title="Go home">
@@ -13,14 +15,16 @@
             <a href="/">Home</a>
             <a href="/about">About Me</a>
             <a href="/notes">Notes</a>
+            <a href="/CV">CV</a>
         </nav>
     </header>
     <main>
         {{content}}
     </main>
-    
+
     <footer class="page-footer">
         <small>Copyright {{site.author}}</small>
     </footer>
 </body>
+
 </html>
