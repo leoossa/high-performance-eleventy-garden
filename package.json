@@ -1,6 +1,7 @@
 {
   "name": "high-performance-eleventy-garden",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "license": "MIT OR Treeware",
   "description": "Mind garden / second-brain / zettelkasten based on 11ty (eleventy) with some additional feautres",
   "scripts": {
     "start": "eleventy --serve",
@@ -8,15 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/binyamin/eleventy-garden.git"
+    "url": "https://github.com/leoossa/high-performance-eleventy-garden.git"
   },
-  "keywords": [],
-  "author": "Binyamin Aron Green (https://binyam.in/)",
-  "license": "MIT",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "zettelkasten",
+    "second-brain",
+    "mind-garden",
+    "digital-garden"
+  ],
+  "author": "Leonard Ossa (https://leonardossa.com/)",
   "bugs": {
-    "url": "https://github.com/binyamin/eleventy-garden/issues"
+    "url": "https://github.com/leoossa/high-performance-eleventy-garden/issues"
   },
-  "homepage": "https://github.com/binyamin/eleventy-garden#readme",
+  "homepage": "https://github.com/leoossa/high-performance-eleventy-garden",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0-canary.10",
     "markdown-it": "^12.0.4",
@@ -25,6 +32,7 @@
     "title-case": "^3.0.3"
   },
   "dependencies": {
+    "dayjs": "github:leoossa/dayjs",
     "markdown-it-bracketed-spans": "^1.0.1",
     "rough-notation": "^0.5.1"
   }
