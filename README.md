@@ -1,4 +1,7 @@
 # High-Performance-Eleventy-Garden
+
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://plant.treeware.earth/leoossa/high-performance-eleventy-garden)
+
 This is my try to apply performance features from [eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog) into [Eleventy-Garden](https://github.com/binyamin/eleventy-garden), additionally I added [Rough Notation](https://github.com/rough-stuff/rough-notation) because I think it is cool.
 
 
@@ -50,3 +53,7 @@ WORK IN PROGRESS - PERFORMANCE OPTIMIZATIONS STILL HAVE TO BE ADDED
 - [x] add Rough Notation 
 - [ ] add performance optimizations 
 - [ ] add ability to generate  [graph links](https://github.com/tchayen/markdown-links)
+
+
+## Licence            
+This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/leoossa/high-performance-eleventy-garden) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
