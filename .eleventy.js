@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig)
     });
 
     eleventyConfig.addPassthroughCopy({ "node_modules/rough-notation/lib/rough-notation.iife.js": "js/rough-notation.iife.js" });
-    eleventyConfig.addPassthroughCopy({ "rough-notation-config.js": "js/rough-notation.config.js" });
+    eleventyConfig.addPassthroughCopy({ "src/rough-notation-config.js": "js/rough-notation.config.js" });
 
     eleventyConfig.addPassthroughCopy('src/assets');
 
